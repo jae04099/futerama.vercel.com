@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import styled from 'styled-components';
 import { useApi } from "../../hooks/useApi";
 import { TYPES } from "../../constants";
 import { Characters } from "../../types/characters";

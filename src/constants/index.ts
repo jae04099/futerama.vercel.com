@@ -1,4 +1,4 @@
-const API_ENDPOINT: string = "https://api.sampleapis.com/futurama/"
+export const API_ENDPOINT: string = "https://api.sampleapis.com/futurama/"
 
-const TYPES = ['cast', 'character', 'episodes', 'info', 'inventory', 'questions']
+export const TYPES = ['cast', 'characters', 'episodes', 'info', 'inventory', 'questions']
 

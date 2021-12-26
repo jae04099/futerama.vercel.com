@@ -37,6 +37,7 @@ export default EpisodesPage;
 const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
+    color: #fff;
     h1 {
         font-size: 64px;
     }
@@ -48,7 +49,7 @@ const Container = styled.div`
             flex-direction: column;
             padding: 15px;
             margin: 15px;
-            border: 1px solid #222;
+            border: 1px solid #fff;
             .title {
                 margin-bottom: 24px;
                 font-size: 24px;

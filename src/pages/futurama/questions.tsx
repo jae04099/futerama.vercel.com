@@ -40,6 +40,9 @@ const Container = styled.div`
 color: white;
 display: flex;
 flex-wrap: wrap;
+h1 {
+    font-size: 64px;
+}
 .question-wrap {
     /* background: #5a0fbd; */
     max-width: 300px;

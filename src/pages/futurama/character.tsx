@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import styled from 'styled-components';
+import Image from "next/image";
 import { useApi } from "../../hooks/useApi";
 import { TYPES } from "../../constants";
 import { Characters } from "../../types/characters";
@@ -16,7 +17,7 @@ const CharacterPage: NextPage = () => {
                 return (
                     <div key={characterData.id}>
                                 <p>{characterData.name.first} {characterData.name.middle} {characterData.name.last}</p>
-                                <p>image:{characterData.images.main}</p>
+                                <Image src={characterData.images.main} alt="character" width={100} height={100} />
                                 <p>gender: {characterData.gender}</p>
                                 <p>species: {characterData.species}</p>
                                 <p>homePlanet: {characterData.homePlanet}</p>

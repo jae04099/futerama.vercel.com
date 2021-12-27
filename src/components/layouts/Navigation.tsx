@@ -1,12 +1,14 @@
 import Link from "next/link";
 import styled from "styled-components";
-import { ROUTES_ENDPOINT, TYPES } from "../../constants";
+import { ROUTES_ENDPOINT, TYPES, MAIN_ENDPOINT } from "../../constants";
 
 
 export const Navigation = () => {
     return (
         <Header>
-            <h1>Welcome to the Futurama World</h1>
+            <Link href={`${MAIN_ENDPOINT}`}>
+            <a>Welcome to the Futurama World</a>
+            </Link>
             <nav>
                 <ul>
                     {

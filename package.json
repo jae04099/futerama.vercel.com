@@ -2,9 +2,9 @@
   "name": "futerama-next-",
   "private": true,
   "scripts": {
-    "dev": "next build",
-    "build": "yarn && next build",
-    "start": "yarn && next build && next start -p 8081",
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start -p 8081",
     "lint": "next lint"
   },
   "dependencies": {

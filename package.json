@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && yarn dev",
+    "build": "yarn && next build",
     "start": "next start -p 8081",
     "lint": "next lint",
     "deploy": "yarn && yarn build && yarn dev"

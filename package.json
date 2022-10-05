@@ -2,11 +2,10 @@
   "name": "futerama-next-",
   "private": true,
   "scripts": {
-    "dev": "next build && next dev",
+    "dev": "next build",
     "build": "yarn && next build",
     "start": "next start -p 8081",
-    "lint": "next lint",
-    "deploy": "yarn && yarn build && yarn dev"
+    "lint": "next lint"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.18",
